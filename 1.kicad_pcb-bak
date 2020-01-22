@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1.5)
+    (last_trace_width 1)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
     (user_trace_width 0.7)
@@ -3340,6 +3340,8 @@
     )
   )
 
+  (gr_line (start 12.02 105.01) (end 112.02 104.99) (layer Edge.Cuts) (width 0.12) (tstamp 5E26BCA4))
+  (gr_line (start 112.01 11.98) (end 112.02 104.99) (layer Edge.Cuts) (width 0.12) (tstamp 5E26BC93))
   (gr_text MOSI (at 24.45 77.64) (layer F.SilkS) (tstamp 5E24549B)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -3358,10 +3360,8 @@
   (gr_text RST (at 30.21 73.03) (layer F.SilkS) (tstamp 5E245424)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_line (start 12.02 105.01) (end 12.01 12) (layer Margin) (width 0.12) (tstamp 5DF1C5E2))
-  (gr_line (start 112.01 105.01) (end 12.02 105.01) (layer Margin) (width 0.12))
-  (gr_line (start 112.01 11.98) (end 112.01 105.01) (layer Margin) (width 0.12) (tstamp 5DFCDA7B))
-  (gr_line (start 12.01 12) (end 112.01 11.98) (layer Margin) (width 0.12))
+  (gr_line (start 12.02 105.01) (end 12.01 12) (layer Edge.Cuts) (width 0.12) (tstamp 5DF1C5E2))
+  (gr_line (start 12.01 12) (end 112.01 11.98) (layer Edge.Cuts) (width 0.12))
 
   (segment (start 59.9 75.71) (end 59.9 79.18) (width 0.7) (layer B.Cu) (net 1))
   (segment (start 54.87 78.31) (end 53.55 78.31) (width 0.6) (layer B.Cu) (net 1))
@@ -3729,7 +3729,7 @@
       )
     )
   )
-  (zone (net 2) (net_name Earth) (layer F.Cu) (tstamp 5E26B917) (hatch edge 0.508)
+  (zone (net 2) (net_name Earth) (layer F.Cu) (tstamp 5E26BB4F) (hatch edge 0.508)
     (connect_pads (clearance 0.8))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
